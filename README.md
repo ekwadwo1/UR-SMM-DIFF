@@ -1,4 +1,4 @@
-# UR_SMM_DIFF
+# UR-SMM-DIFF
 
 # UR-SSM-Diff: Uncertainty-Rectified State-Space Latent Diffusion for Physics-Consistent 3D MRI Artifact Correction and Tumor Quantification
 
