@@ -25,8 +25,8 @@ Official implementation of **UR-SSM-Diff**, a physics-grounded latent diffusion 
 
 | Model | Category | DSC↑<sub>WT</sub> | DSC↑<sub>TC</sub> | DSC↑<sub>ET</sub> | HD95↓<sub>WT</sub> |
 |-------|----------|-----------|-----------|-----------|------------|
-| **UR-SSM-Diff (Ours)** | **Generative (SSM)** | **0.865±0.007** | **0.856±0.009** | **0.764±0.012** | **4.82±0.41** |
-| SegMamba | SSM (discrim.) | 0.846±0.015 | 0.839±0.007 | 0.742±0.005 | 6.92±0.72 |
+| **UR-SSM-Diff (Ours)** | **Generative (SSM)** | **0.865±0.007** | **0.836±0.013** | **0.764±0.012** | **8.4±1.1** |
+| SegMamba | SSM (discrim.) | 0.845±0.011 | 0.818±0.007 | 0.741±0.005 | 7.12±1.3 |
 | nnU-Net | CNN (discrim.) | 0.831±0.011 | — | — | — |
 | SwinUNETR | Transformer | 0.832±0.009 | — | — | — |
 | Fast-DDPM | Generative | 0.809±0.012 | — | — | — |
@@ -321,4 +321,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 - BraTS 2021 dataset organizers (RSNA-ASNR-MICCAI)
 - [mamba-ssm](https://github.com/state-spaces/mamba) by Albert Gu and Tri Dao
 - [MONAI](https://monai.io/) for medical imaging utilities
-- TThis work was supported by the National Natural Science Foundation of China (62276116); Six talent peaks project in Jiangsu Province (DZXX-122), and the Jiangsu Province Maternal and Child Health Research Project (F202322), Zhanjiang Social and Development Project (SH2024091), and the China Postdoctoral Science Foundation (2024M751192).
+- This work was supported by the National Natural Science Foundation of China (62276116); Six talent peaks project in Jiangsu Province (DZXX-122), and the Jiangsu Province Maternal and Child Health Research Project (F202322), Zhanjiang Social and Development Project (SH2024091), and the China Postdoctoral Science Foundation (2024M751192).
