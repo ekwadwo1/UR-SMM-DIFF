@@ -1,6 +1,6 @@
 # UR-SMM-DIFF
 
-# UR-SSM-Diff: Uncertainty-Rectified State-Space Latent Diffusion for Physics-Consistent 3D MRI Artifact Correction and Tumor Quantification
+# UR-SSM-Diff: Physics-Consistent State-Space Diffusion for 3D MRI Artifact Correction and Tumor Segmentation 
 
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![PyTorch 2.5](https://img.shields.io/badge/PyTorch-2.5-red.svg)](https://pytorch.org/)
