@@ -92,14 +92,9 @@ UR-SSM-Diff/
 │   ├── __init__.py
 │   └── figures.py                  #   Publication figures (main + supplementary)
 │
-├── scripts/                        # Utility shell scripts
-│   ├── download_brats2021.sh       #   Download BraTS 2021 dataset
-│   ├── preprocess.sh               #   Run full preprocessing pipeline
-│   └── train_all_folds.sh          #   Launch 5-fold CV training
 │
 └── assets/                         # Images for README
     ├── fig_architecture.png
-    └── fig_results.png
 ```
 
 ## Installation
