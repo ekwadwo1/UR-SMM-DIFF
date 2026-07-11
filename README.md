@@ -154,7 +154,7 @@ python data/brats_preprocess.py \
 
 This produces per-subject directories with `image.npy` (4×128³ float32) and `label.npy` (128³ int64), plus `fold_0.json` through `fold_4.json` for cross-validation splits.
 
-### fastMRI (Optional — for Generalization)
+### fastMRI (For Generalization)
 
 ```bash
 python data/fastmri_preprocess.py \
