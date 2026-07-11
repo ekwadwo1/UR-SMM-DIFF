@@ -1,1 +1,64 @@
+# ===========================================================================
+# UR-SSM-Diff: Requirements
+# ===========================================================================
+# Uncertainty-Rectified State-Space Latent Diffusion for
+# Physics-Consistent 3D MRI Artifact Correction and Tumor Segmentation
+#
+# Tested on: NVIDIA RTX 5880 Ada (48 GB), CUDA 11.8/12.x, Python 3.10+
+# ===========================================================================
+#
+# INSTALLATION ORDER (important):
+#   1. Install PyTorch FIRST (with matching CUDA version):
+#        pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 \
+#            --index-url https://download.pytorch.org/whl/cu118
+#
+#   2. Install CUDA-dependent packages (need torch headers):
+#        pip install causal-conv1d --no-build-isolation
+#        pip install mamba-ssm --no-build-isolation
+#
+#   3. Install remaining requirements:
+#        pip install -r requirements.txt
+#
+#   4. Install surface-distance from GitHub:
+#        pip install git+https://github.com/deepmind/surface-distance.git
+# ===========================================================================
 
+# ---------- Core Deep Learning ----------
+monai[all]==1.4.0
+einops>=0.8.0
+timm>=1.0.3
+
+# ---------- Medical Image I/O ----------
+nibabel>=5.3.0
+SimpleITK>=2.4.0
+torchio>=0.20.0
+
+# ---------- HDF5 (fastMRI k-space) ----------
+h5py>=3.12.0
+
+# ---------- Scientific Computing ----------
+numpy>=1.26.0,<2.0
+scipy>=1.14.0
+scikit-image>=0.24.0
+scikit-learn>=1.5.0
+
+# ---------- Plotting ----------
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# ---------- Tables & Data ----------
+pandas>=2.2.0
+openpyxl>=3.1.0
+
+# ---------- Progress & Logging ----------
+tqdm>=4.67.0
+rich>=13.9.0
+
+# ---------- Experiment Tracking ----------
+wandb>=0.18.0
+
+# ---------- Testing ----------
+pytest>=8.3.0
+
+# ---------- 3D Connected Components ----------
+connected-components-3d>=3.18.0
