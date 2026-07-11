@@ -321,4 +321,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 - BraTS 2021 dataset organizers (RSNA-ASNR-MICCAI)
 - [mamba-ssm](https://github.com/state-spaces/mamba) by Albert Gu and Tri Dao
 - [MONAI](https://monai.io/) for medical imaging utilities
-- This work was supported by the National Natural Science Foundation of China (62276116); Six talent peaks project in Jiangsu Province (DZXX-122), and the Jiangsu Province Maternal and Child Health Research Project (F202322), Zhanjiang Social and Development Project (SH2024091), and the China Postdoctoral Science Foundation (2024M751192).
+- This work was supported by the National Natural Science Foundation of China (62276116, 62501253); Six talent peaks project in Jiangsu Province (DZXX-122).
